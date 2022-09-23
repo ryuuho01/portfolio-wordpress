@@ -1,0 +1,235 @@
+// @media screen and (min-width: 1601px) {
+@media screen and (min-width: 1259px) {
+  .container-top {
+    .circle_column1 {
+      // position: absolute;
+      // top: 50px;
+      // left: 0;
+      // height: 250px;
+      // background-color: rgba(255, 0, 0, 0.4);
+      // border-radius: 0 10px 10px 0;
+
+      // animation-name:ServiceAnime1;
+      // animation-duration:0.4s;
+      // animation-delay: 0.2s;
+      // animation-fill-mode:forwards;
+      img {
+        //   display: block;
+        //   position: absolute;
+        //   right: 20px;
+        top: -30px;
+        transform: unset;
+        width: 60px;
+        height: 60px;
+        margin-right: 30px;
+      }
+    }
+
+    .circle_column2 {
+      // position: absolute;
+      // top: 50px;
+      // height: 250px;
+      // right: 0;
+      // width: 0%;
+      // background-color: rgba(255, 145, 0, 0.4);
+      // border-radius: 10px 0 0 10px;
+
+      // animation-name:ServiceAnime1;
+      // animation-duration:0.4s;
+      // animation-delay: 0.2s;
+      // animation-fill-mode:forwards;
+      img:nth-child(1) {
+        // display: block;
+        // position: absolute;
+        top: -30px;
+        transform: unset;
+        width: 60px;
+        height: 60px;
+      }
+
+      img:nth-child(2) {
+        // display: block;
+        // position: absolute;
+        top: -30px;
+        left: 120px;
+        transform: unset;
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    .circle_column3 {
+      // position: absolute;
+      // top: 50px;
+      // left: 0;
+      height: 250px;
+      // background-color: rgba(255, 0, 0, 0.4);
+      // border-radius: 0 10px 10px 0;
+
+      // animation-name:ServiceAnime1;
+      // animation-duration:0.4s;
+      // animation-delay: 0.2s;
+      // animation-fill-mode:forwards;
+      img:nth-child(1) {
+        // display: block;
+        // position: absolute;
+        top: -30px;
+        right: 50px;
+        transform: unset;
+        width: 60px;
+        height: 60px;
+      }
+
+      img:nth-child(2) {
+        // display: block;
+        // position: absolute;
+        top: -30px;
+        right: 120px;
+        transform: unset;
+        width: 60px;
+        height: 60px;
+      }
+
+      img:nth-child(3) {
+        // display: block;
+        // position: absolute;
+        top: -30px;
+        right: 190px;
+        transform: unset;
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+
+  .lance1 {
+    h2 {
+      font-weight: unset;
+      display: block;
+      font-size: 70px;
+      position: absolute;
+      text-shadow: unset;
+      margin: auto;
+      margin-bottom: 250px;
+      height: 90px;
+      background: linear-gradient(rgb(251, 255, 45), rgb(255, 166, 32));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Rampart One', cursive;
+    }
+
+    .lanceTrigger1-2 {
+      opacity: 0;
+    }
+
+    .fadelance1-2 {
+      animation-name: fadeLanceAnime1-2;
+      animation-duration: 0.8s;
+      animation-delay: 0.3s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeLanceAnime1-2 {
+      from {
+        opacity: 1;
+        bottom: 50px;
+        right: -550px;
+      }
+
+      to {
+        opacity: 1;
+        bottom: -50px;
+        right: -500px;
+      }
+    }
+  }
+
+  .lance2 {
+    h2 {
+      font-weight: unset;
+      display: block;
+      font-size: 70px;
+      position: absolute;
+      text-shadow: unset;
+      margin: auto;
+      margin-bottom: 250px;
+      height: 90px;
+      background: linear-gradient(rgb(255, 45, 45), rgb(255, 166, 32));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Rampart One', cursive;
+    }
+
+    .lanceTrigger2-2 {
+      opacity: 0;
+    }
+
+    .fadelance2-2 {
+      animation-name: fadeLanceAnime2-2;
+      animation-duration: 0.8s;
+      animation-delay: 0.3s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeLanceAnime2-2 {
+      from {
+        opacity: 1;
+        bottom: 50px;
+        left: -480px;
+      }
+
+      to {
+        opacity: 1;
+        bottom: -50px;
+        left: -430px;
+      }
+    }
+  }
+
+  .lance3 {
+    h2 {
+      font-weight: unset;
+      display: block;
+      font-size: 70px;
+      position: absolute;
+      text-shadow: unset;
+      margin: auto;
+      margin-bottom: 250px;
+      height: 180px;
+      line-height: 1;
+      text-align: center;
+      background: linear-gradient(rgb(251, 255, 45), rgb(255, 166, 32));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Rampart One', cursive;
+    }
+
+    .lanceTrigger3-2 {
+      opacity: 0;
+    }
+
+    .fadelance3-2 {
+      animation-name: fadeLanceAnime1-3;
+      animation-duration: 0.8s;
+      animation-delay: 0.3s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeLanceAnime1-3 {
+      from {
+        opacity: 1;
+        bottom: -30px;
+        right: -450px;
+      }
+
+      to {
+        opacity: 1;
+        bottom: -130px;
+        right: -400px;
+      }
+    }
+  }
+}

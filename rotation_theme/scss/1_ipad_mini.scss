@@ -1,0 +1,1562 @@
+// iPadminiレスポンシブ対応
+@media screen and (min-width: 481px) {
+  .quarter-circle {
+    h1 {
+      font-size: 100px;
+      height: 110px;
+      width: 450px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    p {
+      // font-family: 'Zen Kaku Gothic New', sans-serif;
+      // position: absolute;
+      // left: 10%;
+      // top: 45%;
+      font-size: 30px;
+      width: 360px;
+
+      span::before {
+        // content: "";
+        // background: url(../img/star.png);
+        // background-size: cover;
+        // vertical-align: top;
+        width: 15px;
+        height: 15px;
+        // display: inline-block;
+      }
+    }
+  }
+
+  .displayLine1:after {
+    top: 93px;
+    width: 130px;
+  }
+
+  .displayLine2:after {
+    top: 140px;
+    width: 130px;
+  }
+
+  .displayLine3:after {
+    top: 190px;
+    width: 130px;
+  }
+
+  .scroll-text {
+    // position: absolute;
+    // bottom: 50px;
+    // text-align: center;
+    // width: 100%;
+    font-size: 17px;
+  }
+
+  .container-top {
+    h2 {
+      font-size: 70px;
+      margin: 30px 10px -20px 30px;
+    }
+
+    h3 {
+      margin-left: 40px;
+    }
+
+    .about_card {
+      width: 70%;
+      max-width: 500px;
+    }
+
+    .about-para {
+      width: 70%;
+      box-sizing: border-box;
+      max-width: 500px;
+      padding: 30px;
+      font-size: 20px;
+    }
+
+    .course-para {
+      width: 70%;
+      // box-sizing: border-box;
+      // max-width: 500px;
+      // padding: 30px;
+      // font-size: 20px;
+    }
+
+    .lance1 {
+
+      // position: relative;
+      // height: 200px;
+      // width: 80%;
+      // margin: auto;
+      // background-image: url(../img/tel.jpg);
+      // background-position: center;
+      // background-size: cover;
+      // border-radius: 10px 10px 0 0;
+      // margin-top: 20px;
+      // h2 {
+      //   position: absolute;
+      //   top: 0;
+      // }
+      // p {
+      //   position: absolute;
+      //   bottom: 0;
+      //   right: 0;
+      //   background-color: rgba(255, 255, 255, 0.8);
+      //   font-size: 20px;
+      //   font-family: 'Zen Kaku Gothic New', sans-serif;
+      //   border-radius: 10px 0 0 0 ;
+      //   padding-left: 20px;
+      //   padding-right: 20px;
+      // }
+      ul {
+        border-radius: 10px 0 0 0;
+        // background-color: rgba(185, 185, 185, 0.432);
+        width: 250px;
+        // li {
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // padding: 5px 0 0 5px;
+        // font-size: 18px;
+        // color: white;
+        // width: auto;
+        // i {
+        //   color: rgb(151, 224, 41);
+        //   background-color: white;
+        //   border-radius: 50%;
+        // }
+        // }
+      }
+
+      // .lanceTrigger1 {
+      //   opacity: 0;
+      // }
+      .lanceTrigger1-2 {
+        // opacity: 0;
+        width: auto;
+      }
+    }
+
+    .lance2 {
+
+      // position: relative;
+      // height: 200px;
+      // width: 80%;
+      // margin: auto;
+      // background-image: url(../img/get_work.jpg);
+      // background-position: center;
+      // background-size: cover;
+      // border-radius: 10px 10px 0 0;
+      // margin-top: 20px;
+      // p {
+      //   position: absolute;
+      //   bottom: 0;
+      //   right: 0;
+      //   background-color: rgba(255, 255, 255, 0.8);
+      //   font-size: 20px;
+      //   font-family: 'Zen Kaku Gothic New', sans-serif;
+      //   border-radius: 10px 0 0 0 ;
+      //   padding-left: 20px;
+      //   padding-right: 20px;
+      // }
+      ul {
+        border-radius: 10px 0 0 0;
+        // background-color: rgba(185, 185, 185, 0.432);
+        width: 150px;
+        // li {
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // padding: 5px 0 0 5px;
+        // font-size: 18px;
+        // color: white;
+        // width: 100%;
+        //     i {
+        //       color: rgb(151, 224, 41);
+        //       background-color: white;
+        //       border-radius: 50%;
+        //     }
+        // }
+      }
+
+      // .lanceTrigger2 {
+      //   opacity: 0;
+      // }
+      // .lanceTrigger2-2 {
+      //   opacity: 0;
+      // }
+    }
+
+    .lance3 {
+
+      // position: relative;
+      // height: 200px;
+      // width: 80%;
+      // margin: auto;
+      // background-image: url(../img/full_support.jpg);
+      // background-position: center;
+      // background-size: cover;
+      // border-radius: 10px 10px 0 0;
+      // margin-top: 20px;
+      // p {
+      //   position: absolute;
+      //   bottom: 0;
+      //   right: 0;
+      //   background-color: rgba(255, 255, 255, 0.8);
+      //   font-size: 20px;
+      //   font-family: 'Zen Kaku Gothic New', sans-serif;
+      //   border-radius: 10px 0 0 0 ;
+      //   padding-left: 20px;
+      //   padding-right: 20px;
+      // }
+      ul {
+        border-radius: 10px 0 0 0;
+        // background-color: rgba(185, 185, 185, 0.432);
+        width: 200px;
+        // li {
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // padding: 5px 0 0 5px;
+        // font-size: 18px;
+        // color: white;
+        // width: 100%;
+        // i {
+        //   color: rgb(151, 224, 41);
+        //   background-color: white;
+        //   border-radius: 50%;
+        // }
+        // }
+      }
+
+      .lanceTrigger3 {
+        opacity: 0;
+      }
+
+      .lanceTrigger3-2 {
+        opacity: 0;
+      }
+    }
+
+    .contact {
+      width: 70%;
+      margin: auto;
+      font-size: 20px;
+      background-color: rgba(241, 241, 241, 0.788);
+      padding: 5%;
+      position: relative;
+      margin-bottom: 30px;
+
+      i {
+        font-size: 60px;
+      }
+    }
+
+    #particlesc-js {
+      // position: relative;
+      // width: 100%;
+      height: 300px;
+
+      // background-image: url(../img/contact.jpg);
+      // background-position: center;
+      // background-size: cover;
+      // overflow: hidden;
+      button {
+        // display: inline-block;
+        // position: absolute;
+        // top: 60%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        // width: 250px;
+        height: 60px;
+        // border: none;
+        // font-size: 25px;
+        // border-radius: 10px;
+        // background-color: rgb(255, 164, 164);
+        // cursor: pointer;
+        // border-right: 3px solid black;
+        // border-bottom: 3px solid black;;
+        // a {
+        //   font-family: 'Zen Kaku Gothic New', sans-serif;
+        // }
+        // a:hover {
+        //   font-family: 'Zen Kaku Gothic New', sans-serif;
+        //   color: white;
+        // }
+      }
+
+      // button:hover {
+      //   border: unset;
+      //   margin-top: 3px;
+      //   margin-left: 3px;
+      // }
+      // button:before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   bottom: 0;
+      //   width: 0;
+      //   left: 0;
+      //   display: block;
+      //   background: #ff0000;
+      //   transition: .2s;
+      //   border-radius: 10px;
+      //   opacity: 0.7;
+      //   z-index: -1;
+      // }
+      // button:hover:before{
+      //   width: 100%;
+      // }
+    }
+  }
+
+  footer {
+    .footer-content {
+      .footer_icon {
+        a {
+          height: 250px;
+          width: 250px;
+
+          img {
+            display: block;
+            height: 250px;
+            width: 250px;
+            margin: auto;
+          }
+        }
+      }
+
+      .footer-about {
+
+        // font-size: 50px;
+        ul {
+          li {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .scroll-top {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+  // about-page// about-page// about-page// about-page
+
+  .top-about {
+    // position: relative;
+    // top: 70px;
+    // width: 100%;
+    height: 430px;
+
+    // background-image: url(../img/team.png);
+    // background-position: top;
+    // background-size: cover;
+    .top-anime-left {
+      // position: absolute;
+      // top: -70px;
+      // left: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-top: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime1;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    .top-anime-right {
+      // position: absolute;
+      // top: -70px;
+      // right: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-bottom: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime2;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    h2 {
+      // width: 100%;
+      // text-align: center;
+      // display: inline-block;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      font-size: 80px;
+      //   text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.6);
+      //   font-weight: unset;
+    }
+
+    h3 {
+      // width: 170px;
+      // display: inline-block;
+      // position: absolute;
+      top: 55%;
+      // left: 50%;
+      // color: white;
+      // transform: translate(-20px, 60%);
+      // text-shadow: 2px 2px 2px rgba(17, 17, 17, 0.8);
+      // font-size: 22px;
+    }
+  }
+
+  .main-about {
+    .about-reon {
+
+      // width: 100%;
+      // margin-top: 230px;
+      .reon {
+        // position: relative;
+        width: 70%;
+        height: 350px;
+        // margin: auto;
+        // background-image: url(../img/reon.png);
+        // background-position: top;
+        // background-size: cover;
+        // box-shadow: 10px 10px rgb(110, 110, 110);
+        // .about-circle {
+        //   position: absolute;
+        //   background-color: rgba(255, 174, 0, 0.5);
+        //   top: -60px;
+        //   left: 20px;
+        //   height: 140px;
+        //   width: 40px;
+        //   border-radius: 50%;
+        //   transform: rotate(45deg);
+
+        // }
+        // h2 {
+        //   position: absolute;
+        //   top: -70px;
+        //   left: -20px;
+        //   font-size: 50px;
+        //   font-weight: unset;
+        //   span {
+        //     font-size: 70px;
+        //     background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+        //     -webkit-background-clip: text;
+        //     -webkit-text-fill-color: transparent;
+        //     // box-shadow: 1px 1px 1px blue;
+        //   }
+        // }
+        h3 {
+          //   position: absolute;
+          top: 250px;
+          right: -80px;
+          //   transform: rotate(90deg);
+          //   font-family: 'Rampart One', cursive;
+          //   font-size: 45px;
+          //   color: rgb(255, 138, 138);
+        }
+      }
+
+    }
+
+    .introduction {
+      border: 2px dashed black;
+      line-height: 1.2;
+      margin: auto;
+      margin-top: 30px;
+      width: 70%;
+      box-sizing: border-box;
+      font-size: 20px;
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      background-color: rgba(241, 241, 241, 0.788);
+      padding: 15px;
+    }
+
+    .about-omi {
+      .omi {
+        // position: relative;
+        width: 70%;
+        height: 350px;
+        // margin: auto;
+        // margin-top: 100px;
+        // background-image: url(../img/omi.png);
+        // background-position: top;
+        // background-size: cover;
+        // box-shadow: 10px 10px rgb(110, 110, 110);
+        // .about-circle {
+        //   position: absolute;
+        //   background-color: rgba(255, 174, 0, 0.5);
+        //   top: -60px;
+        //   left: 20px;
+        //   height: 140px;
+        //   width: 40px;
+        //   border-radius: 50%;
+        //   transform: rotate(45deg);
+
+        // }
+        // h2 {
+        //   position: absolute;
+        //   top: -70px;
+        //   left: -20px;
+        //   font-size: 50px;
+        //   font-weight: unset;
+        //   span {
+        //     font-size: 70px;
+        //     background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+        //     -webkit-background-clip: text;
+        //     -webkit-text-fill-color: transparent;
+        //     // box-shadow: 1px 1px 1px blue;
+        //   }
+        // }
+        h3 {
+          //   position: absolute;
+          top: 260px;
+          right: -67px;
+          //   transform: rotate(90deg);
+          //   font-family: 'Rampart One', cursive;
+          //   font-size: 45px;
+          //   color: rgb(255, 138, 138);
+        }
+      }
+    }
+
+    .about-ten {
+      .ten {
+        // position: relative;
+        width: 70%;
+        height: 350px;
+        // margin: auto;
+        // margin-top: 100px;
+        // background-image: url(../img/ten.png);
+        // background-position: top;
+        // background-size: cover;
+        // box-shadow: 10px 10px rgb(110, 110, 110);
+        // .about-circle {
+        //   position: absolute;
+        //   background-color: rgba(255, 174, 0, 0.5);
+        //   top: -60px;
+        //   left: 20px;
+        //   height: 140px;
+        //   width: 40px;
+        //   border-radius: 50%;
+        //   transform: rotate(45deg);
+
+        // }
+        // h2 {
+        //   position: absolute;
+        //   top: -70px;
+        //   left: -20px;
+        //   font-size: 50px;
+        //   font-weight: unset;
+        //   span {
+        //     font-size: 70px;
+        //     background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+        //     -webkit-background-clip: text;
+        //     -webkit-text-fill-color: transparent;
+        //     // box-shadow: 1px 1px 1px blue;
+        //   }
+        // }
+        h3 {
+          //   position: absolute;
+          top: 260px;
+          right: -67px;
+          //   transform: rotate(90deg);
+          //   font-family: 'Rampart One', cursive;
+          //   font-size: 45px;
+          //   color: rgb(255, 138, 138);
+        }
+      }
+    }
+  }
+
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+  // contact-page// contact-page// contact-page
+
+  .top-contact {
+    // position: relative;
+    // top: 70px;
+    // width: 100%;
+    height: 430px;
+
+    // background-image: url(../img/team.png);
+    // background-position: top;
+    // background-size: cover;
+    .top-anime-left {
+      // position: absolute;
+      // top: -70px;
+      // left: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-top: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime1;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    .top-anime-right {
+      // position: absolute;
+      // top: -70px;
+      // right: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-bottom: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime2;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    h2 {
+      // width: 100%;
+      // text-align: center;
+      // display: inline-block;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      font-size: 80px;
+      //   text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.6);
+      //   font-weight: unset;
+    }
+
+    h3 {
+      // width: 170px;
+      // display: inline-block;
+      // position: absolute;
+      top: 55%;
+      // left: 50%;
+      // color: white;
+      // transform: translate(-20px, 60%);
+      // text-shadow: 2px 2px 2px rgba(17, 17, 17, 0.8);
+      // font-size: 22px;
+    }
+  }
+
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+  // course-page// course-page// course-page// course-page
+
+  .top-course {
+    // position: relative;
+    // top: 70px;
+    // width: 100%;
+    height: 430px;
+
+    // background-image: url(../img/team.png);
+    // background-position: top;
+    // background-size: cover;
+    .top-anime-left {
+      // position: absolute;
+      // top: -70px;
+      // left: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-top: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime1;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    .top-anime-right {
+      // position: absolute;
+      // top: -70px;
+      // right: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-bottom: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime2;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    h2 {
+      // width: 100%;
+      // text-align: center;
+      // display: inline-block;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      font-size: 80px;
+      //   text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.6);
+      //   font-weight: unset;
+    }
+
+    h3 {
+      // width: 170px;
+      // display: inline-block;
+      // position: absolute;
+      top: 55%;
+      // left: 50%;
+      // color: white;
+      // transform: translate(-20px, 60%);
+      // text-shadow: 2px 2px 2px rgba(17, 17, 17, 0.8);
+      // font-size: 22px;
+    }
+  }
+
+  .course-des {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 100px auto 0 auto;
+    font-size: 18px;
+    background-color: rgba(241, 241, 241, 0.788);
+    width: 80%;
+    max-width: 500px;
+    // text-align: center;
+    padding: 10px;
+  }
+
+  .suitable {
+
+    // width: 90%;
+    // margin: auto;
+    // .fadeTrigger {
+    //   opacity: 0;
+    // }
+    .suit-1 {
+      max-width: 460px;
+
+      // margin: 50px auto;
+      // width: 95%;
+      // position: relative;
+      // img {
+      //   display: block;
+      // }
+      h2 {
+        max-width: 400px;
+        // position: absolute;
+        // width: 300px;
+        // top: -20px;
+        // left: 50%;
+        // transform: translate(-50%, 0);
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // font-size: 25px;
+        // background: linear-gradient(-45deg, rgb(175, 161, 255), rgb(28, 24, 255));
+        // color: rgb(255, 255, 255);
+        // text-align: center;
+        // border-radius: 10px;
+      }
+
+      // p {
+      //   position: absolute;
+      //   bottom: 10px;
+      //   left: 50%;
+      //   transform: translate(-50%, 0);
+      //   font-family: 'Zen Kaku Gothic New', sans-serif;
+      //   font-size: 18px;
+      //   padding: 10px;
+      //   width: 80%;
+      //   margin: 20px auto 0 auto;
+      //   background-color: rgba(223, 223, 223, 0.8);
+      // }
+    }
+
+    .suit-2 {
+      max-width: 460px;
+
+      // margin: 50px auto;
+      // width: 95%;
+      // position: relative;
+      // img {
+      //   display: block;
+      // }
+      h2 {
+        max-width: 400px;
+        // position: absolute;
+        // width: 300px;
+        // top: -20px;
+        // left: 50%;
+        // transform: translate(-50%, 0);
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // font-size: 25px;
+        // background: linear-gradient(-45deg, rgb(175, 161, 255), rgb(28, 24, 255));
+        // color: rgb(255, 255, 255);
+        // text-align: center;
+        // border-radius: 10px;
+      }
+
+      // p {
+      //   position: absolute;
+      //   bottom: 10px;
+      //   left: 50%;
+      //   transform: translate(-50%, 0);
+      //   font-family: 'Zen Kaku Gothic New', sans-serif;
+      //   font-size: 18px;
+      //   padding: 10px;
+      //   width: 80%;
+      //   margin: 20px auto 0 auto;
+      //   background-color: rgba(223, 223, 223, 0.8);
+      // }
+    }
+
+    .suit-3 {
+      max-width: 460px;
+
+      // margin: 50px auto;
+      // width: 95%;
+      // position: relative;
+      // img {
+      //   display: block;
+      // }
+      h2 {
+        max-width: 400px;
+        // position: absolute;
+        // width: 300px;
+        // top: -20px;
+        // left: 50%;
+        // transform: translate(-50%, 0);
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // font-size: 25px;
+        // background: linear-gradient(-45deg, rgb(175, 161, 255), rgb(28, 24, 255));
+        // color: rgb(255, 255, 255);
+        // text-align: center;
+        // border-radius: 10px;
+      }
+
+      // p {
+      //   position: absolute;
+      //   bottom: 10px;
+      //   left: 50%;
+      //   transform: translate(-50%, 0);
+      //   font-family: 'Zen Kaku Gothic New', sans-serif;
+      //   font-size: 18px;
+      //   padding: 10px;
+      //   width: 80%;
+      //   margin: 20px auto 0 auto;
+      //   background-color: rgba(223, 223, 223, 0.8);
+      // }
+    }
+  }
+
+  .details-des {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 0 auto 0 auto;
+    font-size: 18px;
+    background-color: rgba(241, 241, 241, 0.788);
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+  }
+
+  .feature-list {
+    width: 200px;
+    font-size: 20px;
+    margin: 20px auto;
+    background-color: rgba(241, 241, 241, 0.788);
+    padding: 10px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+  }
+
+  table {
+    max-width: 550px;
+
+    // margin: 20px auto;
+    // width: 95%;
+    // box-sizing: border-box;
+    // border: 3px solid rgb(0, 0, 0);
+    tr {
+      .course-no {
+        width: 45px;
+      }
+
+      th {
+        // vertical-align: middle;
+        // width: 100px;
+        font-size: 20px;
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // line-height: 1;
+      }
+
+      td {
+        font-size: 18px;
+        // vertical-align: middle;
+        // border: 1px solid black;
+        // text-align: center;
+        // width: 100px;
+        // height: 38px;
+        // line-height: 1;
+        // font-family: 'Zen Kaku Gothic New', sans-serif;
+        // span {
+        //   font-family: 'Zen Kaku Gothic New', sans-serif;
+        //   font-weight: bold;
+        // }
+      }
+
+      // .price1 {
+      //   background-color: rgb(0, 140, 255);
+      //   height: 45px;
+      //   color: rgb(255, 255, 255);
+      //   span {
+      //     color: white;
+      //     font-size: 20px;
+      //   }
+      // }
+      // .price2 {
+      //   background-color: rgb(0, 140, 255);
+      //   height: 45px;
+      //   color: rgb(255, 255, 255);
+      //   span {
+      //     color: white;
+      //     font-size: 20px;
+      //   }
+      // }
+      // .price3 {
+      //   color: white;
+      //   background: rgb(0, 140, 255);
+      //   height: 45px;
+      //   span {
+      //     color: white;
+      //     font-size: 20px;
+      //   }
+      // }
+    }
+
+    .active-row {
+      background-color: rgb(255, 187, 0);
+      color: red;
+    }
+
+  }
+
+  .sun {
+    display: none;
+  }
+
+  .tab {
+    width: 100%;
+
+    .tab-menu {
+      display: flex;
+      width: 320px;
+      margin: auto;
+      flex-wrap: wrap;
+
+      .tab-menu__item {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px 0;
+        cursor: pointer;
+        list-style: none;
+        width: 80px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        box-sizing: border-box;
+        border-radius: 0 10px 0 0;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-size: 18px;
+      }
+
+      .tab-menu__item:not(:first-child) {
+        border-left: none;
+        position: relative;
+      }
+
+      .tab-menu__item:not(:first-child):before {
+        content: '';
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        display: inline-block;
+        width: 1px;
+        height: 7px;
+        background-color: black;
+      }
+
+      .tab-menu__item:nth-child(5) {
+        border-left: 1px solid #000;
+      }
+
+      .tab-menu__item:nth-child(5):before {
+        border-left: 1px solid #000;
+        display: none;
+      }
+
+      .up-tab {
+        transform: translate(0, -10px);
+      }
+
+      .active {
+        background: linear-gradient(-45deg, rgb(211, 211, 211), black);
+        color: white;
+        position: relative;
+
+        // animation-name: tabAnime;
+        // animation-fill-mode:forwards;
+        // animation-duration:1.5s;
+        // animation-timing-function:ease;
+        // animation-delay: 0s;
+        // animation-direction:normal;
+        // @keyframes tabAnime{
+        //   0% { background: rgb(103, 252, 140); }
+        //   100% { background: linear-gradient(-45deg, rgb(211, 211, 211), black); }
+        // }
+        .active_before {
+          content: '';
+          position: absolute;
+          left: 5px;
+          // top: -10px;
+          border-radius: 50%;
+          box-shadow: -2px -1px 5px 0.5px rgba(255, 0, 0, 0.7) inset;
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          background: #FFF;
+          animation-name: ballAnime;
+          animation: ballAnime 1.5s linear infinite;
+
+          @keyframes ballAnime {
+            0% {
+              top: 5px;
+            }
+
+            50% {
+              top: 1px;
+            }
+
+            100% {
+              top: 5px;
+            }
+          }
+        }
+
+
+      }
+
+    }
+
+    .tab-content {
+      max-width: 550px;
+
+      // width: 90%;
+      // margin: auto;
+      .tab-content__item {
+
+        // display: none;
+        // background-color: rgb(238, 238, 238);
+        // transform: translate(0, -20px);
+        // border: 1px solid #000;
+        // border-radius: 0 0 10px 10px;
+        // box-shadow: 5px 5px 5px rgb(95, 95, 95);
+        h2 {
+          // margin: 10px;
+          // font-family: 'Zen Kaku Gothic New', sans-serif;
+          font-size: 20px;
+          // color: rgb(255, 81, 81);
+        }
+
+        .course-content {
+          // margin: auto;
+          width: 250px;
+
+          img {
+            height: 17px;
+            width: 17px;
+          }
+
+          .course-name_1 {
+            // margin: auto;
+            // font-family: 'Zen Kaku Gothic New', sans-serif;
+            font-size: 20px;
+          }
+
+          .course-name_2 {
+            // font-family: 'Zen Kaku Gothic New', sans-serif;
+            font-size: 20px;
+          }
+
+          .course-name_3 {
+            // font-family: 'Zen Kaku Gothic New', sans-serif;
+            font-size: 20px;
+          }
+        }
+
+        p {
+          // font-family: 'Zen Kaku Gothic New', sans-serif;
+          // padding: 10px;
+          font-size: 18px;
+        }
+      }
+
+      // .show {
+      //   display: block;
+      // }
+    }
+  }
+
+  .interview1 {
+    // background-image: url(../img/flame2.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    width: 400px;
+    height: 340px;
+    // position: relative;
+    // margin: auto;
+    // margin-top: 100px;
+    // display: flex;
+    // align-items: center;
+    // p {
+    //   width: 80%;
+    //   margin: auto;
+    // }
+    // .h-flame {
+    //   position: absolute;
+    //   top: -80px;
+    //   left: 10px;
+    //   background-color: rgb(255, 250, 185);
+    //   border-radius: 100% 100% 0 0;
+    //   height: 120px;
+    //   width: 150px;
+    //   display: flex;
+    //   flex-direction: column;
+    //   justify-content: center;
+    //   align-items: center;
+    //   img {
+    //     display: block;
+    //     height: 80px;
+    //     width: 80px;
+    //   }
+    //   h3 {
+    //     color: rgb(214, 83, 83);
+    //   }
+    // }
+  }
+
+  .interview2 {
+    // background-image: url(../img/flame1.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    width: 400px;
+    height: 340px;
+    // position: relative;
+    // margin: auto;
+    // margin-top: 100px;
+    // display: flex;
+    // align-items: center;
+    // p {
+    //   width: 80%;
+    //   margin: auto;
+    // }
+    // .h-flame {
+    //   position: absolute;
+    //   top: -80px;
+    //   left: 10px;
+    //   background-color: rgb(207, 255, 185);
+    //   border-radius: 100% 100% 0 0;
+    //   height: 120px;
+    //   width: 150px;
+    //   display: flex;
+    //   flex-direction: column;
+    //   justify-content: center;
+    //   align-items: center;
+    //   img {
+    //     display: block;
+    //     height: 80px;
+    //     width: 80px;
+    //   }
+    //   h3 {
+    //     color: rgb(83, 118, 214);
+    //   }
+    // }
+  }
+
+  .question-box {
+    // width: 90%;
+    max-width: 550px;
+    // margin: auto;
+    // margin-top: 5px;
+    // background-color: rgb(40, 54, 255);
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // border: 1px solid rgb(158, 158, 158);
+    // box-sizing: border-box;
+    // h3 {
+    //   padding: 5px 0 5px 20px;
+    //   width: 80%;
+    //   font-size: 17px;
+    //   color: white;
+    //   font-family: 'Zen Kaku Gothic New', sans-serif;
+    // }
+    // .q-openclose {
+    //   // display: inline-block;
+    //   position: relative;
+    //   height: 30px;
+    //   width: 30px;
+    //   margin-right: 10px;
+    //   border-radius: 50%;
+    //   background-color: rgb(0, 140, 255);
+    //   cursor: pointer;
+    //   .vertical {
+    //     position: absolute;
+    //     top: 2px;
+    //     left: 14px;
+    //     // transform: translate(-50%, 0);
+    //     height: 26px;
+    //     width: 2px;
+    //     background-color: white;
+    //     transition: 0.3s;
+    //     // transform: rotate(45deg);
+    //   }
+    //   .horizon {
+    //     position: absolute;
+    //     top: 14px;
+    //     left: 2px;
+    //     // transform: translate(0, -50%);
+    //     height: 2px;
+    //     width: 26px;
+    //     background-color: white;
+    //   }
+    // }
+    // .q-open {
+    //   .vertical {
+    //     transform: rotate(450deg);
+    //     opacity: 0;
+    //     // background-color: red;
+    //   }
+    // }
+  }
+
+  .answer {
+    max-width: 550px;
+    // opacity: 0;
+    // width: 90%;
+    // height: 0;
+    // margin: auto;
+    // background-color: rgb(202, 203, 255);
+    // transition: 0.4s;
+
+    // p {
+    //   padding: 5px 20px;
+    //   font-size: 15px;
+    //   font-family: 'Zen Kaku Gothic New', sans-serif;
+    // }
+  }
+
+  // .answer:last-child {
+  //   margin-bottom: 50px;
+
+
+  //   p {
+  //     padding: 5px 20px;
+  //     font-size: 15px;
+  //     font-family: 'Zen Kaku Gothic New', sans-serif;
+  //   }
+  // }
+  // .q-in {
+  //   height: auto;
+  //   opacity: 1;
+
+  // }
+
+  .contactbutton-des {
+    // font-family: 'Zen Kaku Gothic New', sans-serif;
+    // margin: 50px auto;
+    // font-size: 18px;
+    // background-color: rgba(241, 241, 241, 0.788);
+    // width: 80%;
+    max-width: 370px;
+    // padding: 10px;
+  }
+
+  // .course-contact {
+  //   width: 100%;
+  //   margin: 30px 0;
+  //   text-align: center;
+  //   button {
+  //     position: relative;
+  //     margin: auto;
+  //     display: inline-block;
+  //     width: 250px;
+  //     height: 50px;
+  //     border: none;
+  //     font-size: 25px;
+  //     border-radius: 10px;
+  //     background-color: rgb(164, 255, 169);
+  //     cursor: pointer;
+  //     border-right: 3px solid black;
+  //     border-bottom: 3px solid black;;
+  //     z-index: 0;
+  //     a {
+  //       font-family: 'Zen Kaku Gothic New', sans-serif;
+  //     }
+  //     a:hover {
+  //       font-family: 'Zen Kaku Gothic New', sans-serif;
+  //       color: white;
+  //     }
+  //   }
+  //   button:hover {
+  //     border: unset;
+  //     margin-top: 3px;
+  //     margin-left: 3px;
+  //   }
+  //   button:before {
+  //     content: "";
+  //     position: absolute;
+  //     top: 0;
+  //     bottom: 0;
+  //     width: 0;
+  //     left: 0;
+  //     display: block;
+  //     background: #66ff00;
+  //     transition: .2s;
+  //     border-radius: 10px;
+  //     opacity: 0.7;
+  //     z-index: -1;
+  //   }
+  //   button:hover:before{
+  //     width: 100%;
+  //   }
+  // }
+
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+  // law-page// law-page  // law-page  // law-page
+
+  .top-law {
+    // position: relative;
+    // top: 70px;
+    // width: 100%;
+    height: 430px;
+
+    // background-image: url(../img/team.png);
+    // background-position: top;
+    // background-size: cover;
+    .top-anime-left {
+      // position: absolute;
+      // top: -70px;
+      // left: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-top: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime1;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    .top-anime-right {
+      // position: absolute;
+      // top: -70px;
+      // right: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-bottom: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime2;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    h2 {
+      // width: 100%;
+      // text-align: center;
+      // display: inline-block;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      font-size: 35px;
+      //   text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.6);
+      //   font-weight: unset;
+    }
+  }
+
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  // payment-page// payment-page// payment-page
+  .top-payment {
+    // position: relative;
+    // top: 70px;
+    // width: 100%;
+    height: 430px;
+
+    // background-image: url(../img/team.png);
+    // background-position: top;
+    // background-size: cover;
+    .top-anime-left {
+      // position: absolute;
+      // top: -70px;
+      // left: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-top: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime1;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    .top-anime-right {
+      // position: absolute;
+      // top: -70px;
+      // right: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-bottom: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime2;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    h2 {
+      // width: 100%;
+      // text-align: center;
+      // display: inline-block;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      font-size: 35px;
+      //   text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.6);
+      //   font-weight: unset;
+    }
+  }
+
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  // policy-page// policy-page// policy-page
+  .top-policy {
+    // position: relative;
+    // top: 70px;
+    // width: 100%;
+    height: 430px;
+
+    // background-image: url(../img/team.png);
+    // background-position: top;
+    // background-size: cover;
+    .top-anime-left {
+      // position: absolute;
+      // top: -70px;
+      // left: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-top: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime1;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    .top-anime-right {
+      // position: absolute;
+      // top: -70px;
+      // right: 0;
+      height: 501px;
+      // width: 51%;
+      // box-sizing: border-box;
+      border-bottom: 501px solid #ffffff;
+      /* 高さ */
+      // animation-name: top-anime2;
+      // animation-duration: 1s;
+      // animation-delay: 0.8s;
+      // animation-fill-mode:forwards;
+      // z-index: 1005;
+    }
+
+    h2 {
+      // width: 100%;
+      // text-align: center;
+      // display: inline-block;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // background: -webkit-linear-gradient(0deg, #ff3535, #ffa600);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      font-size: 35px;
+      //   text-shadow: 6px 6px 6px rgba(255, 255, 255, 0.6);
+      //   font-weight: unset;
+    }
+  }
+}
